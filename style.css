@@ -1,0 +1,289 @@
+.nav-link:hover{
+    background-color: #C06014;
+}
+
+.nav-link{ width: 14%;
+padding: 12px 5px;
+}
+.imgs-part{
+   margin-top: 80px;
+    text-align: center; 
+    color: white; 
+    background-image: url(nav5.jpeg);   
+    background-size:cover; 
+       background-repeat: no-repeat; 
+       border-bottom:15px solid #C06014;
+}
+.pics{
+    display: flex ;
+    justify-content: center;
+     align-items: center;
+}
+.container{
+width: 85%;
+}
+.orange{
+    display: none;
+}
+.pic{
+border-radius: 50%;
+height: 130px;
+width: 130px;
+margin: 20px;
+}
+.pic1{
+border-radius: 50%;
+height:300px;
+width: auto;
+}
+h2{
+    color:#C06014 ;
+        font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.about{
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 10px solid #857671;
+    height: auto;
+}
+span{
+font-size:x-large ;
+}
+.Education{
+display: flex;
+justify-content:space-around;
+margin-top: 30px;
+padding-bottom: 30px;
+border-bottom: 10px solid #857671;
+height: auto;
+}
+.Education div{
+ flex:30% 70%;
+  text-align: center;
+  padding: 20px;
+  display: inline-block;
+}
+.sk{
+ margin-top: 30px;
+padding-bottom: 30px;
+border-bottom: 10px solid #857671;
+height: auto;
+}
+.Skills {
+display: flex;
+justify-content: space-around;
+}
+.Skills div {
+    flex: 35% 35%;
+}
+.Langueges{
+   margin-top: 30px;
+   padding-bottom: 30px;
+   border-bottom: 10px solid #857671;
+   height: auto;
+    display: flex;
+    margin-left: 30px;
+    flex-direction: column;
+}
+.Langueges div{
+    background-color: rgb(192, 192, 192);
+    width: 40%;
+    height: 20px;
+     border-radius: 15px;
+}
+
+.cer{
+    text-align: center;
+    margin-top: 30px;
+   padding-bottom: 30px;
+   border-bottom: 10px solid #857671;
+   height: auto;
+}
+.Certificates{
+   display: flex;
+   justify-content: center;
+}
+
+.Certificates div{
+ flex: 32% 32% 32%;
+    border: 5px SOLID #C06014;
+    height:auto;
+    background-color: white;
+    color: black;
+    padding-top: 20px;
+    margin: 30px;
+}
+.Certificates img{
+    width: 280px;
+    height: 250px;
+}
+.Certificates img:hover{
+    transform: scale(150%);
+    transition: 0.3s;
+}
+.Experiences{
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 10px solid #857671;
+    height: auto;
+}
+.Experiences div{
+    border: 3px solid #857671;
+    display: flex;
+    justify-content: center;
+}
+.Experiences ul{
+    line-height:50px;
+}
+.projects{
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 10px solid #857671;
+    height: auto;
+    text-align: center;
+}
+.project-img{
+    display: flex;
+    justify-content:center;
+    flex-wrap: nowrap;
+}
+.project-img img{
+    height: 270px;
+    width: calc(90%5);
+    margin: 20px;
+}
+.project-img img:hover{  transform: scale(150%);
+    transition: 0.3s;}
+.References{
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 10px solid #857671;
+    height: auto;
+    text-align: center;
+}
+.ref-cards{
+    display: flex;
+    justify-content: center;
+}
+.ref-cards div:hover{
+    transform: scale(150%);
+    transition: 0.3s;
+}
+.ref-cards div{
+    background-color:#2a2b29;
+    width: calc(70%/3);
+    margin: 20px;
+    border: 5px solid #C06014;
+}
+.ref-cards img{border-radius:50% ;
+     height: auto; 
+     width: 100px;}
+
+.cont{
+    padding-top: 30px;
+    background-color: #b7b3b1;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    height: auto;
+    color: black;
+   
+}
+.contact-head{
+    text-align: center;
+}
+.Contact{
+    display: grid;
+    grid-template-columns: 30% 30%;
+    grid-template-rows: 50% 50%;
+   text-align: left;
+  justify-content: space-around;
+
+}
+
+@media only screen and (min-device-width:0px) and (max-device-width :480px){
+    .pic{display: none;
+    }
+    .navbar-toggler{ 
+        background-color: #C06014;
+    }
+span{
+        font-size: small;
+}
+.Education{
+    flex-direction: column;
+}
+#Skills {flex-wrap: wrap;
+}
+#skills div{
+    display: block;
+}
+.Certificates{
+    flex-wrap: wrap;
+}
+.Certificates div{
+    margin: 5px;
+}
+.Experiences ul{
+    line-height:20px;
+}
+.project-img {
+    flex-wrap: wrap;
+}
+.project-img img{
+    height: 200px;
+    width: calc(90%5);
+    margin: 5px;
+}
+.ref-cards{
+    flex-wrap: wrap;
+}
+.ref-cards div{
+    width: auto;
+    margin: 5px;
+    border: 5px solid #C06014;
+}
+.Contact span{
+    display: none;
+}
+
+}
+
+
+
+@media only screen and (min-device-width :481px) and (max-device-width :768px){
+   .nav-link{
+    font-size:smaller;
+   }
+   .nav-link{ width: 18%;
+    padding: 12px 5px;
+    }
+  span{
+   font-size: large;
+  }
+.Certificates{
+    flex-wrap: wrap;
+}
+.Certificates div{
+    flex-direction:column;
+}
+.Experiences ul{
+    line-height:40px;
+}
+.project-img {
+    flex-wrap: wrap;
+}
+.ref-cards{
+    flex-wrap:nowrap;
+}
+.ref-cards div{
+    width: 400px;
+    margin: 5px;
+    border: 5px solid #C06014;
+}
+    .pic{ display:none;}
+    #pic4{display: inline;}
+    #pic3{display: inline;}
+}
